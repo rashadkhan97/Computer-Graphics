@@ -18,11 +18,14 @@ def midPoint(x,y,x1,y1):
         print("y=",y,end="\n ")
     plt.plot(xlist,ylist,linestyle="--",marker="+")
     plt.show()
+    
 #main Function
 print("Enter Initial Point: ")
 x=int(input())
 y=int(input())
+
 print("Enter Finishing Point: ")
 x1=int(input())
 y1=int(input())
 midPoint(x,y,x1,y1)
+
